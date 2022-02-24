@@ -1,0 +1,50 @@
+@charset "UFT-8";
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+#titulo {
+    color:blueviolet;
+    font-size: 40px;
+}
+
+.subtitulo {
+    color: chocolate;
+    font-size: 1,5em;
+}
+div {
+    color: darkmagenta;
+}
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: darkgreen;
+}
+
+a {
+   font-family: Arial, Helvetica, sans-serif;
+   color: crimson; 
+   text-decoration: none;
+}
+
+a {
+    background-color: darkseagreen;
+}
+a:hover {
+    color: darkcyan;
+    background-color: darkgray;
+}
+
+a::after {
+    content: '<--';
+    color: darkgreen;
+}
+a::before {
+    content: '-->';
+    color: darkgreen;
+}
