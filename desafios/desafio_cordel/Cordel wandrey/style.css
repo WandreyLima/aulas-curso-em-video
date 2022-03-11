@@ -46,3 +46,39 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
+
+main {
+    font-family: var(--fonte-texto);
+    font-size: 3.5vw;
+    margin: 70px 0px 40px 0px;
+}
+
+main section {
+    margin-bottom: 100px;
+    
+}
+
+main p {
+    line-height: 90px;
+    margin-left: 40px;
+}
+
+#segundaestrofe {
+    background-image: url(midia/background001.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.288);
+    width: 45vw;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
